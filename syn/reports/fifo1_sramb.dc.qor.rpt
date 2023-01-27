@@ -1,0 +1,125 @@
+Warning: There are infeasible paths detected in your design that were ignored during optimization. Please run 'report_timing -attributes' and/or 'create_qor_snapshot/query_qor_snapshot -infeasible_paths' to identify these paths.  (OPT-1721)
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : qor
+Design : fifo1_sramb
+Version: Q-2019.12-SP3
+Date   : Fri Jan 27 05:45:40 2023
+****************************************
+
+
+  Timing Path Group 'INPUTS'
+  -----------------------------------
+  Levels of Logic:               9.00
+  Critical Path Length:          1.20
+  Critical Path Slack:          -1.07
+  Critical Path Clk Period:      0.75
+  Total Negative Slack:        -26.76
+  No. of Violating Paths:       30.00
+  Worst Hold Violation:         -0.36
+  Total Hold Violation:         -7.25
+  No. of Hold Violations:       30.00
+  -----------------------------------
+
+  Timing Path Group 'OUTPUTS'
+  -----------------------------------
+  Levels of Logic:               4.00
+  Critical Path Length:          1.81
+  Critical Path Slack:          -1.66
+  Critical Path Clk Period:      0.75
+  Total Negative Slack:        -14.79
+  No. of Violating Paths:        9.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+  Timing Path Group 'rclk'
+  -----------------------------------
+  Levels of Logic:               9.00
+  Critical Path Length:          0.80
+  Critical Path Slack:          -0.28
+  Critical Path Clk Period:      0.75
+  Total Negative Slack:         -0.72
+  No. of Violating Paths:       10.00
+  Worst Hold Violation:         -0.27
+  Total Hold Violation:        -14.81
+  No. of Hold Violations:       56.00
+  -----------------------------------
+
+  Timing Path Group 'wclk'
+  -----------------------------------
+  Levels of Logic:               8.00
+  Critical Path Length:          0.77
+  Critical Path Slack:          -0.25
+  Critical Path Clk Period:      0.75
+  Total Negative Slack:         -1.37
+  No. of Violating Paths:       16.00
+  Worst Hold Violation:         -0.26
+  Total Hold Violation:        -29.76
+  No. of Hold Violations:      120.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          5
+  Hierarchical Port Count:        160
+  Leaf Cell Count:                464
+  Buf/Inv Cell Count:              80
+  Buf Cell Count:                  11
+  Inv Cell Count:                  69
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:       360
+  Sequential Cell Count:          104
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:   180721.514827
+  Noncombinational Area:
+                        120841.216652
+  Buf/Inv Area:            133.679744
+  Total Buffer Area:            23.38
+  Total Inverter Area:         110.30
+  Macro/Black Box Area: 209907.328125
+  Net Area:               1136.632862
+  -----------------------------------
+  Cell Area:            511470.059604
+  Design Area:          512606.692466
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:           612
+  Nets With Violations:            74
+  Max Trans Violations:            10
+  Max Cap Violations:              64
+  -----------------------------------
+
+
+  Hostname: auto.ece.pdx.edu
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    0.04
+  Logic Optimization:                 10.79
+  Mapping Optimization:              123.47
+  -----------------------------------------
+  Overall Compile Time:              141.01
+  Overall Compile Wall Clock Time:   141.89
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 1.66  TNS: 42.27  Number of Violating Paths: 49
+
+
+  Design (Hold)  WNS: 0.36  TNS: 51.82  Number of Violating Paths: 206
+
+  --------------------------------------------------------------------
+
+
+1
